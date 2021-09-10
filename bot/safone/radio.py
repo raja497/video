@@ -105,6 +105,6 @@ async def restart(client, m: Message):
         FFMPEG_PROCESSES[CHAT_ID] = ""
     os.execl(sys.executable, sys.executable, *sys.argv)
     try:
-        await k.edit("✅ **Restarted Successfully! \nJoin @AsmSafone For More!**")
+        await k.edit("✅ **Restarted Successfully! \nJoin @ABOUT_ABHINAS For More!**")
     except:
         pass
