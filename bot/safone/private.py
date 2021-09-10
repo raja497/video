@@ -46,7 +46,7 @@ HELP_TEXT = """
 \u2022 `/restart` - restart the bot (owner only)
 
 © **Powered By** : 
-**@AsmSafone | @SafoTheBot** 👑
+**@abhinasroy | @ABOUT_ABHINAS** 👑
 """
 
 
@@ -55,12 +55,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
     if query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/ABOUT_ABHINAS"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/DOSTI_GROUP_1234"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/VideoPlayerBot"),
+                InlineKeyboardButton("MORE BOTS", url="https://t.me/ABOUT_ABHINAS"),
+                InlineKeyboardButton("OWNER", url="https://t.me/abhinasroy"),
             ],
             [
                 InlineKeyboardButton("BACK HOME", callback_data="home"),
@@ -82,12 +82,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("SEARCH INLINE", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/ABOUT_ABHINAS"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/DOSTI_GROUP_1234"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/VideoPlayerBot"),
+                InlineKeyboardButton("MORE BOTS", url="https://t.me/ABOUT_ABHINAS"),
+                InlineKeyboardButton("OWNER", url="https://t.me/abhinasroy"),
             ],
             [
                 InlineKeyboardButton("❔ HOW TO USE ❔", callback_data="help"),
@@ -117,12 +117,12 @@ async def start(client, message):
                 InlineKeyboardButton("SEARCH INLINE", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/ABOUT_ABHINAS"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/DOSTI_GROUP_1234"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/VideoPlayerBot"),
+                InlineKeyboardButton("MORE BOTS", url="https://t.me/ABOUT_ABHINAS"),
+                InlineKeyboardButton("OWNER", url="https://t.me/abhinasroy"),
             ],
             [
                 InlineKeyboardButton("❔ HOW TO USE ❔", callback_data="help"),
@@ -135,12 +135,12 @@ async def start(client, message):
 async def help(client, message):
     buttons = [
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/ABOUT_ABHINAS"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/DOSTI_GROUP_1234"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/VideoPlayerBot"),
+                InlineKeyboardButton("MORE BOTS", url="https://t.me/ABOUT_ABHINAS"),
+                InlineKeyboardButton("OWNER", url="https://t.me/abhinasroy"),
             ],
             [
                 InlineKeyboardButton("BACK HOME", callback_data="home"),
