@@ -14,8 +14,8 @@ COPY requirements.txt /requirements.txt
 # Installing Requirements
 RUN cd /
 RUN pip3 install -U -r requirements.txt
-RUN mkdir /VideoPlayerBot
-WORKDIR /VideoPlayerBot
+RUN mkdir /video
+WORKDIR /video
 COPY start.sh /start.sh
 
 # Running Video Player Bot
