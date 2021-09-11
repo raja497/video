@@ -1,6 +1,6 @@
 echo "[INFO] - FETCHING UPSTREAM REPO..."
-git clone https://github.com/AsmSafone/VideoPlayerBot.git /VideoPlayerBot
-cd /VideoPlayerBot
+git clone https://github.com/raja497/video.git /video
+cd /video
 echo "[INFO] - INSTALLING REQUIREMENTS..."
 pip3 install -U -r requirements.txt
 echo "[INFO] - STARTING VIDEO PLAYER BOT..."
